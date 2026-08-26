@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { color: #27261f; background: #f6f3eb; }
+::selection { background: #d9ddcf; }
+textarea::placeholder { color: #8b887e; }
+*:focus-visible { outline: 2px solid #52604f; outline-offset: 3px; }
