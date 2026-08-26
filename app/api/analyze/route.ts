@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
 
 const opportunitySchema = z.object({
   name: z.string().min(8).max(120), hook: z.string().min(15).max(240),
